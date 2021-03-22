@@ -1,3 +1,7 @@
+"""
+THESE SCRIPTS ARE DESIGNED TO BE EDITED - READ THE COMMENTS TO SEE WHERE
+"""
+
 import os
 import pandas as pd
 import numpy as np
@@ -29,7 +33,7 @@ for filename in os.listdir(data_folder):
         filepath = os.path.join(data_folder, filename)
         df = pd.read_csv(filepath, header=0, index_col=0)
         
-        # convert column headers (times) to float (may need different replace string for TRPL)
+        # convert column headers (times) to float (might need different replace strings for different kinds of dataset)
         df.columns = [float(x.replace('E+0.1', 'E+0')) for x in df.columns]
         
         # optional - crop wavelength range

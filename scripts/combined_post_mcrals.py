@@ -1,3 +1,7 @@
+"""
+THESE SCRIPTS ARE DESIGNED TO BE EDITED - READ THE COMMENTS TO SEE WHERE
+"""
+
 import os
 import pandas as pd
 import numpy as np

@@ -1,3 +1,7 @@
+"""
+THESE SCRIPTS ARE DESIGNED TO BE EDITED - READ THE COMMENTS TO SEE WHERE
+"""
+
 import os
 import pandas as pd
 import numpy as np
@@ -5,13 +9,11 @@ import numpy as np
 
 # specify datasets to post-process
 folders = [
-    'folder_1',
-    'folder_2',
-    'folder_3'
+    'filename',
     ]
 
 # give the components names
-component_names = ['C1', 'C2']
+component_names = ['S', 'T']
 
 # iterate through specificed datasets
 for folder in folders:
