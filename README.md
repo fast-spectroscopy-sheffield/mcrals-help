@@ -1,4 +1,4 @@
-# tr-data-analysis
+# mcrals-help
 
 This repository aims to help with using [MCR-ALS](https://mcrals.wordpress.com/) (MATLAB toolbox) to perform deconvolution of datasets such as time-resolved photoluminescence and transient absorption. The scripts provided here are aimed more at TA data, but can easily be edited for use with TRPL data. The scripts are written mainly in python. I would recommend [miniconda](https://docs.conda.io/en/latest/miniconda.html) to start, and install packages that you need as you go ([pandas](https://pandas.pydata.org/), [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/), [scipy](https://www.scipy.org/) etc.).
 
